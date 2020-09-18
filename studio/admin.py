@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Product,Subscribe_email
 
-# Register your models here.
+admin.site.register(Product)
+admin.site.register(Subscribe_email)
